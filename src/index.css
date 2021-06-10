@@ -1,0 +1,536 @@
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+/* 
+// Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.token-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.25rem !important;
+}
+.buy-now
+{
+     width: 60% !important;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 1px solid rgb(229, 232, 235);
+    border-radius: 5px;
+    color: white;
+    background-color: #007bff;
+    height: 40px;
+    cursor: pointer;
+    
+}
+  .buy-now:hover{
+  
+   background-color: white;
+   color: black;
+} 
+.token-card{
+    width: 320px;
+    height: 400px !important;
+    padding: 15px 0px 15px 22px;
+    cursor: pointer;
+    margin: 8px;
+    }
+  .token-card:hover{
+  
+   box-shadow: 0px 0px 4px 4px gainsboro;
+} 
+.token-card2{
+    width: 320px;
+    height: 400px !important;
+    padding: 15px 0px 15px 22px;
+    cursor: pointer;
+    margin: 8px;
+    top: 30px;
+    }
+    .Header_root{
+      margin-left: 350px;
+      display: flex;
+      overflow-x: scroll;
+      overflow-y: hidden;
+    }
+     .Token_root{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+ .left-text{
+   float: left !important;
+   margin-left: -20px;
+   font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+ }
+ .right-text{
+   float: right !important;
+ }
+ .icon-button{
+    float: right;
+    padding-top: 0px;
+ }
+ .header-button{
+    height: 30px;
+    width: -moz-fit-content;
+    width: 135px;
+    border: none !important;
+    margin: 19px;
+    background: white;
+    cursor: pointer;
+ }
+ button{
+   color:rgb(138, 147, 155);
+   border: blue;
+ }
+ .header-button:hover{
+   color: black;
+   background-color: gainsboro;
+ }
+ .header-button:active{
+   border: none;
+ }
+ .header-image{
+   width: 26px;
+ }
+ .TabNavItem--name{
+   white-space: nowrap;
+ }
+/* Header component Css */
+.main-header{
+    background-color: white;
+    height: 25%;
+    box-shadow: 0px 0px 20px 0px gainsboro;
+    
+}
+.title{
+    font-size: 23px;
+    font-weight: 450;
+    float: left;
+    margin: 20px 0px 0px -153px;
+}
+.logo 
+{
+    width: 37px;
+    position: absolute;
+    margin-left: -45px;
+}
+.search{
+    top: 15px;
+    left: -68px;
+    white-space: nowrap;
+}
+.form-control {
+    border: blue 1px solid;
+    height: 50px; 
+}
+.nav-bar{
+    display: flex;
+    left: 745px;
+    top: -18px;
+    font-size: large;
+    font-weight: 500;
+    
+}
+.nav-item
+{
+   color: black;
+   background-color: white;
+   padding: 0px 37px 2px 18px;
+}
+.profile :hover{
+  display: block;
+}
+
+/* collection component css */
+
+.collection-sidenav
+{
+    overflow-y: hidden !important;
+    background-color: rgb(251, 253, 255);
+    border-right: 1px solid rgb(229, 232, 235);
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+    padding: 4px 8px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.collection-right
+{
+  /* display: flex; */
+  margin-left: 400px !important;
+}
+.collection-card{
+    width: 320px;
+    height: 400px;
+    padding: 17px 10px 15px 0px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px gainsboro;
+    margin-left: -162px;
+    margin-top: 5rem!important;
+}
+.MuiTypography-body1{
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+.collection-card2{
+    width: 26%;
+    height: 93% !important;
+    padding: 15px 0px 15px 22px;
+    cursor: pointer;
+    margin: 8px;
+}
+.span{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 27px;
+}
+.icon
+{
+   margin-top: inherit;
+}
+.create{
+    width: 133px;
+    padding: 10px;
+    margin-top: 35px;
+    text-align: center !important;
+}
+.MuiDialog-paperWidthSm {
+    width: 450px !important;
+    height: 600px;
+}
+.MuiTypography-h6{
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  text-align: center;
+}
+.MuiTypography-body1 {
+    font-size: 12px !important;
+    text-align: center;
+    }
+ #imagePreview {
+  margin: 15px 0 0 0;
+  border: 2px solid #ddd;
+}  
+.DialogContentText{
+  float: left !important;
+} 
+label{
+  float: left !important;
+}
+#logo{
+  margin-left: -32px;
+}
+.img-icon{
+    margin-left: -260px !important;
+    margin-top: 20px;
+}
+.svg {
+    width: 33% !important;
+    height: 20% !important;
+    border: gainsboro 2px dotted !important;
+    padding: 25px 25px 25px 25px !important;
+}
+.input-text
+{
+    margin: 10px 0px 0px -7px;
+    width: 100%;
+    padding: 10px 5px 15px 24px;
+    border: gainsboro 1px solid;
+    border-radius: 6px;
+}
+.textarea{
+  height: 100px;
+}
+.black{
+  color: black;
+}
+.last{
+      margin-left: 125px;
+}
+.store-icon{
+    fill: #b8b4b4 !important;
+    width: 60px !important;
+    height: 70px !important;
+}
+.MuiMenuItem-root {
+    font-size: 19px !important;
+    line-height: 2.5 !important;
+    
+}
+.modal-dialog{
+  float: right;
+  width: 475px !important;
+}
+.modal-content{
+  top: 60px;
+  height: 714px;
+}
+.modal-backdrop{
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out 0s;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    /* border: 1px solid rgba(0,0,0,.2); */
+    /* border-radius: 0px; */
+    outline: 0;
+}
+.modal-body {
+  text-align: center;
+}
+.total
+{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(138, 147, 155);
+    padding: 10px 10px 10px 10px;
+}
+.balance{
+    color: rgb(14, 14, 14);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+}
+.add-funds{
+      -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(32, 129, 226);
+    border: 1px solid rgb(32, 129, 226);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 12px 20px;
+    text-align: center;
+    user-select: none;
+    max-height: 100%;
+    width: -webkit-fill-available;
+}
+ .wallet {
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid gainsboro !important;
+    padding: inherit;
+}
+.modal-title{
+    color: rgb(53, 56, 64);
+    font-size: 12px;
+    white-space: nowrap;
+}
+.wallet-icon{
+      margin: 3px 2px -6px 2px;
+}
+.form-control{
+  width: 50% !important;
+  margin-left: 285px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+      
+}
+
+.featured-background{
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+.imgtop{
+    height: 450px;
+    width: 550px;
+    opacity: 1 !important;
+    /* box-shadow: 0px 0px 4px 4px gainsboro; */
+}
+.imgtop:hover{
+  box-shadow: 0px 0px 4px 4px gainsboro;
+}
+
+.home-title{
+    width: 64%;
+    padding: 110px 20px 44px 19px;
+    text-align: justify;
+}
+.explore-btn{
+  display: flex;
+}
+.explore{
+  width: 145px;
+  padding: 11px;
+}
+.drops{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.filter{
+  border-right: 1px solid gainsboro !important;
+  height: 700px !important;
+  position: fixed;
+  width: 435px;
+}
+.mycontainer{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: inherit;
+    margin-right: auto;
+    margin-left: unset;
+}
+.row{
+      flex-wrap: nowrap !important;
+
+}
+.heading{
+   -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    padding: 20px 12px;
+    user-select: none;
+}
+ .collection-filter :hover{
+  background-color:gainsboro !important;
+}
+.FeaturedFilter--items {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.FeaturedFilter {
+ -webkit-box-align: center;
+    align-items: center;
+    border: 1px solid rgb(229, 232, 235);
+    border-radius: 5px;
+    color: rgb(53, 56, 64);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 40px;
+    margin: 4px;
+    padding: 10px;
+    width: calc(50% - 8px);
+    cursor: pointer;
+}
+
+ .FeaturedFilter:hover{
+  
+   box-shadow: 0px 0px 4px 4px gainsboro;
+} 
+.Panel--isContentPadded {
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+}
+.select{
+    cursor: pointer;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid rgb(229, 232, 235);
+    width: 100%;
+    padding: 12px;
+}
+.min-max{
+  -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.check{
+  display: grid !important;
+}
+.second-layer{
+  
+  top: 437px;
+}
+.modal{
+    justify-content: center !important;
+    display: flex;
+    align-items: center !important;
+    
+}
+.MuiBackdrop-root{
+  opacity: 0.3 !important;
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #727070;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
